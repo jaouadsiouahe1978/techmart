@@ -1,11 +1,11 @@
 # Backlog TechMart
 
-  ## Sprint 1 — Python scripts infra
+  ## Sprint 1 — Python scripts infra ✅ (livré le 15/04/2026 — tag v0.1)
 
-  - [ ] US01 : infra_check.py — vérifie CPU, RAM, Disque
-  - [ ] US02 : service_monitor.py — liste les services Docker actifs
-  - [ ] US03 : log_parser.py — analyse les logs et compte les erreurs
-  - [ ] US04 : alert_checker.py — déclenche une alerte si seuil dépassé
+  - [x] US01 : infra_check.py — vérifie CPU, RAM, Disque
+  - [x] US02 : service_monitor.py — liste les services Docker actifs (dans services.py)
+  - [x] US03 : log_analyzer.py — analyse les logs et TOP 3 erreurs par service
+  - [x] US04 : alert_checker.py — déclenche CRITICAL/WARNING selon criticité du service
 
   ## Sprint 2 — Shell scripting
 
